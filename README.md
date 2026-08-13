@@ -4,14 +4,15 @@ Official beta website and distribution for the SVisuals Minecraft visual mod.
 
 ## Current release
 
-- SVisuals Beta 15.16.0
+- SVisuals Beta 15.17.0
 - Minecraft 1.21.4, Fabric Loader 0.16.10+, Fabric API, Java 21
-- Download: [SVisuals-Beta-Fabric-1.21.4-15.16.0.jar](downloads/SVisuals-Beta-Fabric-1.21.4-15.16.0.jar)
-- SHA-256: `D9D264AB902B1CB84EC810D7B20A4ACB3F4953DE400AA47CB809A76C6A091A8F`
+- Download: [SVisuals-Beta-Fabric-1.21.4-15.17.0.jar](downloads/SVisuals-Beta-Fabric-1.21.4-15.17.0.jar)
+- SHA-256: `5C73F8C99278D61DD4148017425EF7141FF66AE7FA4BF57A2E4084416209B544`
 
-This release adds server-packet TPS measurement, 21 Target ESP styles, 34 Hit Impact styles,
-ten adjustable swing animations, translucent hand materials, two animated HD sky layers,
-and additional calm death and totem effects.
+This release adds Coordinate Navigator to the ordinary Visuals menu: enter absolute or relative
+XYZ coordinates, save up to five persistent waypoints, and follow a smooth HUD compass with
+distance, direction, exact coordinates and an arrival indicator. It includes all 15.16 visual,
+TPS, swing, hand-material, sky, death and totem improvements.
 
 ## Copyright and copying
 
