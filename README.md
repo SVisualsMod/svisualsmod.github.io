@@ -4,15 +4,16 @@ Official beta website and distribution for the SVisuals Minecraft visual mod.
 
 ## Current release
 
-- SVisuals Beta 15.17.0
+- SVisuals Big Update 16.0.0 Beta
 - Minecraft 1.21.4, Fabric Loader 0.16.10+, Fabric API, Java 21
-- Download: [SVisuals-Beta-Fabric-1.21.4-15.17.0.jar](downloads/SVisuals-Beta-Fabric-1.21.4-15.17.0.jar)
-- SHA-256: `5C73F8C99278D61DD4148017425EF7141FF66AE7FA4BF57A2E4084416209B544`
+- Download: [SVisuals-Fabric-1.21.4-16.0.0.jar](downloads/SVisuals-Fabric-1.21.4-16.0.0.jar)
+- SHA-256: `82A8224CDBD623463E4D405AC649297C015F0F1104FA290471D5565C1A6AF0F5`
 
-This release adds Coordinate Navigator to the ordinary Visuals menu: enter absolute or relative
-XYZ coordinates, save up to five persistent waypoints, and follow a smooth HUD compass with
-distance, direction, exact coordinates and an arrival indicator. It includes all 15.16 visual,
-TPS, swing, hand-material, sky, death and totem improvements.
+Big Update 16.0 adds 24 death-animation styles, including six new procedural 3D modes,
+a redesigned volumetric ghost and Pulse Laser effect, an SVisuals main-menu identity card,
+the SlimeWorld item preset for Heronwater and Fame heads, and the stable 19th swing preset
+based on the reference HandProgress/SwingAnimation math. Laggy first-person hand materials
+were removed; independent hand transforms remain available.
 
 ## Copyright and copying
 
