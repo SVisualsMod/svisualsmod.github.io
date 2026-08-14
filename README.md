@@ -4,16 +4,14 @@ Official beta website and distribution for the SVisuals Minecraft visual mod.
 
 ## Current release
 
-- SVisuals Big Update 16.0.0 Beta
+- SVisuals Visual Update 16.5.0 Beta
 - Minecraft 1.21.4, Fabric Loader 0.16.10+, Fabric API, Java 21
-- Download: [SVisuals-Fabric-1.21.4-16.0.0.jar](downloads/SVisuals-Fabric-1.21.4-16.0.0.jar)
-- SHA-256: `82A8224CDBD623463E4D405AC649297C015F0F1104FA290471D5565C1A6AF0F5`
+- Download: [SVisuals-Fabric-1.21.4-16.5.0.jar](downloads/SVisuals-Fabric-1.21.4-16.5.0.jar)
+- SHA-256: `89F2EDA2C085CE988AF88204D078523B4BA56739B70EFFF17E768144D191F1A9`
 
-Big Update 16.0 adds 24 death-animation styles, including six new procedural 3D modes,
-a redesigned volumetric ghost and Pulse Laser effect, an SVisuals main-menu identity card,
-the SlimeWorld item preset for Heronwater and Fame heads, and the stable 19th swing preset
-based on the reference HandProgress/SwingAnimation math. Laggy first-person hand materials
-were removed; independent hand transforms remain available.
+Visual Update 16.5 adds a through-wall Player Glow, fully customizable Player Hitboxes,
+and a redesigned animated SVisuals launcher screen. Hitbox outline, fill, thickness,
+opacity, scale, and glow style are configurable from the regular Player menu.
 
 ## Copyright and copying
 
