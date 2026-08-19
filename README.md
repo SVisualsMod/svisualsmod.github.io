@@ -4,14 +4,16 @@ Official beta website and distribution for the SVisuals Minecraft visual mod.
 
 ## Current release
 
-- SVisuals Visual Update 16.5.0 Beta
-- Minecraft 1.21.4, Fabric Loader 0.16.10+, Fabric API, Java 21
-- Download: [SVisuals-Fabric-1.21.4-16.5.0.jar](downloads/SVisuals-Fabric-1.21.4-16.5.0.jar)
-- SHA-256: `89F2EDA2C085CE988AF88204D078523B4BA56739B70EFFF17E768144D191F1A9`
+- SVisuals Beta Release 17.8.0
+- Minecraft 1.21.4, Fabric Loader 0.16.14+, bundled Fabric API, Java 21
+- Mod: [SVisuals-Fabric-1.21.4-17.8.0.jar](downloads/SVisuals-Fabric-1.21.4-17.8.0.jar)
+- WeR_PiU bundle: [SVisuals-17.8.0-WeR_PiU-Bundle.zip](downloads/SVisuals-17.8.0-WeR_PiU-Bundle.zip)
+- Free config: [WeR_PiU.svisuals](configs/WeR_PiU.svisuals)
+- SHA-256: `5262A3FB51AB235773A7C2342FF77A58BC42123BEDC7EC690F54389E49110BAF`
 
-Visual Update 16.5 adds a through-wall Player Glow, fully customizable Player Hitboxes,
-and a redesigned animated SVisuals launcher screen. Hitbox outline, fill, thickness,
-opacity, scale, and glow style are configurable from the regular Player menu.
+Beta Release 17.8 contains the complete standard SVisuals feature set, neutral effect
+mode names, a self-contained dependency setup and portable config import. The free
+WeR_PiU preset can be downloaded separately or together with the mod in one ZIP.
 
 ## Copyright and copying
 
