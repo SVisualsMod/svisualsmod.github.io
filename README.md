@@ -4,14 +4,14 @@ Official beta website and distribution for the SVisuals Minecraft visual mod.
 
 ## Current release
 
-- SVisuals Beta Release 17.8.2
+- SVisuals Beta Release 17.8.3
 - Minecraft 1.21.4, Fabric Loader 0.16.14+, bundled Fabric API, Java 21
-- Mod: [SVisuals-Fabric-1.21.4-17.8.2.jar](downloads/SVisuals-Fabric-1.21.4-17.8.2.jar)
-- WeR_PiU bundle: [SVisuals-17.8.2-WeR_PiU-Bundle.zip](downloads/SVisuals-17.8.2-WeR_PiU-Bundle.zip)
+- Mod: [SVisuals-Fabric-1.21.4-17.8.3.jar](downloads/SVisuals-Fabric-1.21.4-17.8.3.jar)
+- WeR_PiU bundle: [SVisuals-17.8.3-WeR_PiU-Bundle.zip](downloads/SVisuals-17.8.3-WeR_PiU-Bundle.zip)
 - Free config: [WeR_PiU.svisuals](configs/WeR_PiU.svisuals)
-- SHA-256: `E3D569CD20EC18CEF16E3EC795E8B564432FB04D033676BBBB8483309683D744`
+- SHA-256: `E276BCD3B736713BD4FC39325C7276E4077CF15D39111BB1A8049040B9452A2A`
 
-Beta Release 17.8.2 contains the complete standard SVisuals feature set, neutral effect
+Beta Release 17.8.3 contains the complete standard SVisuals feature set, neutral effect
 mode names, a self-contained dependency setup and portable config import. The free
 WeR_PiU preset can be downloaded separately or together with the mod in one ZIP.
 The public binary uses release obfuscation and embeds an ownership notice while
