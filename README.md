@@ -4,10 +4,10 @@ Official beta website and public distribution for the SVisuals Minecraft visual 
 
 ## Current release
 
-- SVisuals Beta Release 18.0.0
+- SVisuals Beta Release 18.1.1
 - Minecraft 1.21.4, Fabric Loader, bundled Fabric API, Java 21
-- Mod: [SVisuals-Fabric-1.21.4-18.0.0.jar](downloads/SVisuals-Fabric-1.21.4-18.0.0.jar)
-- WeR-PiU bundle: [SVisuals-18.0.0-WeR-PiU-Bundle.zip](downloads/SVisuals-18.0.0-WeR-PiU-Bundle.zip)
+- Mod: [SVisuals-Fabric-1.21.4-18.1.1.jar](downloads/SVisuals-Fabric-1.21.4-18.1.1.jar)
+- WeR-PiU bundle: [SVisuals-18.1.1-WeR-PiU-Bundle.zip](downloads/SVisuals-18.1.1-WeR-PiU-Bundle.zip)
 - Free config: [WeR_PiU.svisuals](configs/WeR_PiU.svisuals)
 - SHA-256: `36B1187B0B7968C2118E9DED4C499448DAABBABDC810F4646D900C7991F26461`
 
