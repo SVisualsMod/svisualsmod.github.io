@@ -1,25 +1,33 @@
-# SVisuals
+# SVisuals website
 
-Official beta website and public distribution for the SVisuals Minecraft visual mod.
+Official bilingual download site for SVisuals Fabric 1.21.4.
 
-## Current release
+Current public beta: **18.4.1**. The download contains the protected public JAR;
+the optional bundle also includes the free `WeR_PiU` configuration.
 
-- SVisuals Beta Release 18.3.3
-- Minecraft 1.21.4, Fabric Loader, bundled Fabric API, Java 21
-- Mod: [SVisuals-Fabric-1.21.4-18.3.3.jar](downloads/SVisuals-Fabric-1.21.4-18.3.3.jar)
-- WeR-PiU bundle: [SVisuals-18.3.3-WeR-PiU-Bundle.zip](downloads/SVisuals-18.3.3-WeR-PiU-Bundle.zip)
-- Free config: [WeR_PiU.svisuals](configs/WeR_PiU.svisuals)
-- SHA-256: `9C5775F799CAE8B404C3C484255329160CFC4F91A036DC479EE7E957834841D6`
+## Prerequisites
 
-## Copyright and copying
+- Node.js `>=22.13.0`
 
-All original SVisuals code, design, text, branding and assets are protected by copyright. Copying, modifying, republishing, redistributing, reselling or presenting the project as your own is prohibited without written permission from the SVisuals team. Third-party components remain subject to their respective licenses.
+## Quick Start
 
-## Disclaimer
+```bash
+npm install
+npm run dev
+npm run build
+```
 
-SVisuals is provided "as is" and at your own risk. The authors are not responsible for server penalties, game-account actions, incompatibilities, crashes, data loss or other consequences of use. Follow the rules of the server where you play.
+This starter does not use `wrangler.jsonc`.
 
-## Contacts
+## Project structure
 
-Telegram: [@xtkez](https://t.me/xtkez)  
-Discord: `@wer_piu`
+- edit site code under `app/`
+- `app/` contains the site pages and metadata
+- `public/downloads/` contains the current mod and bundle
+- `public/configs/` contains downloadable SVisuals profiles
+
+## Useful Commands
+
+- `npm run dev`: start local development
+- `npm run build`: verify the vinext build output
+- `npm test`: build and verify the rendered release pages and downloads
