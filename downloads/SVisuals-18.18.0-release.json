@@ -1,0 +1,15 @@
+{
+  "product": "SVisuals",
+  "version": "18.18.0",
+  "minecraft": "1.21.4",
+  "loader": "Fabric",
+  "buildId": "SV-18.18.0-XK-WP-20260828-LIC",
+  "sha256": "e09476a21febc6f371f5f16c0e2650ec924ed019022cbb31dfe1b744d5a5fb15",
+  "size": 62973573,
+  "signed": true,
+  "signature": "SHA384withRSA",
+  "digest": "SHA-256",
+  "ownerMarker": "made by xtkez (wer_piu) get out",
+  "mappingPublished": false,
+  "privateKeyEmbedded": false
+}
