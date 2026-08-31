@@ -1,0 +1,16 @@
+{
+    "product": "SVisuals",
+    "version": "18.26.0",
+    "minecraft": "1.21.4",
+    "loader": "Fabric",
+    "buildId": "SV-18.26.0-20260831-125744-B7DE06E97699",
+    "sha256": "4a7a3051cd596c6a9b8901481ec31c62f98a89a4ecd7be3ca79f837a2d1c8574",
+    "size": 62662848,
+    "signed": true,
+    "signature": "Ed25519 manifest + SHA384withRSA JAR",
+    "digest": "SHA-256",
+    "certificateSha256": "1f58931af002283977127e9616c1596a094a31ce8e385938f16f484c17e14b5c",
+    "ownerMarker": "made by xtkez (wer_piu) get out",
+    "mappingPublished": false,
+    "privateKeyEmbedded": false
+}
