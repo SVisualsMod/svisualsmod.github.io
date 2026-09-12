@@ -1,0 +1,1 @@
+var e=`/downloads/Svisuals%201.21.11%20%5BBETA%202.0%5D.jar?v=3315587d`,t=`/downloads/Svisuals%201.21.11%20%5BBETA%202.0%5D%20%2B%20CFG.zip?v=3315587d`;export{e as n,t};

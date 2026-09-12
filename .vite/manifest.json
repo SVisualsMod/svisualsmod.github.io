@@ -1,33 +1,33 @@
 {
-  "_framework-BgSIrAUN-beta20.js": {
-    "file": "_next/static/chunks/framework-BgSIrAUN-beta20.js",
+  "_framework-BgSIrAUN-beta20-rshift.js": {
+    "file": "_next/static/chunks/framework-BgSIrAUN-beta20-rshift.js",
     "name": "framework",
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js"
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js"
     ]
   },
-  "_rolldown-runtime-C60lm6uB-beta20.js": {
-    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB-beta20.js",
+  "_rolldown-runtime-C60lm6uB-beta20-rshift.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB-beta20-rshift.js",
     "name": "rolldown-runtime"
   },
   "app/AnalyticsTracker.tsx": {
-    "file": "_next/static/chunks/AnalyticsTracker-Crfw2t3T-beta20.js",
+    "file": "_next/static/chunks/AnalyticsTracker-Crfw2t3T-beta20-rshift.js",
     "name": "AnalyticsTracker",
     "src": "app/AnalyticsTracker.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js",
-      "_framework-BgSIrAUN-beta20.js"
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js",
+      "_framework-BgSIrAUN-beta20-rshift.js"
     ]
   },
   "app/admin/page.tsx": {
-    "file": "_next/static/chunks/page-DHFbluFC-beta20.js",
+    "file": "_next/static/chunks/page-DHFbluFC-beta20-rshift.js",
     "name": "page",
     "src": "app/admin/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js",
-      "_framework-BgSIrAUN-beta20.js"
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js",
+      "_framework-BgSIrAUN-beta20-rshift.js"
     ]
   },
   "app/configs/page.tsx": {
@@ -36,8 +36,8 @@
     "src": "app/configs/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js",
-      "_framework-BgSIrAUN-beta20.js"
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js",
+      "_framework-BgSIrAUN-beta20-rshift.js"
     ]
   },
   "app/page.tsx": {
@@ -46,8 +46,8 @@
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js",
-      "_framework-BgSIrAUN-beta20.js"
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js",
+      "_framework-BgSIrAUN-beta20-rshift.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
@@ -56,9 +56,9 @@
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js",
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-BgSIrAUN-beta20.js"
+      "_framework-BgSIrAUN-beta20-rshift.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
@@ -67,8 +67,8 @@
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta20.js",
-      "_framework-BgSIrAUN-beta20.js"
+      "_rolldown-runtime-C60lm6uB-beta20-rshift.js",
+      "_framework-BgSIrAUN-beta20-rshift.js"
     ],
     "dynamicImports": [
       "virtual:vinext-app-browser-entry",
