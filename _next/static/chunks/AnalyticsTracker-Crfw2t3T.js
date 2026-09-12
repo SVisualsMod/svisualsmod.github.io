@@ -1,1 +1,29 @@
-import{r as e}from"./rolldown-runtime-C60lm6uB.js";import{r as t}from"./framework-BgSIrAUN.js";var n=e(t(),1),r=`https://svisuals-metrics-7k4p9x2.davi5780d.chatgpt.site/api/track`,i=`https://svisuals-metrics-7k4p9x2.davi5780d.chatgpt.site/api/pixel`;function a(){try{let e=`svisuals_visitor_id`,t=window.localStorage.getItem(e);if(t)return t;let n=crypto.randomUUID();return window.localStorage.setItem(e,n),n}catch{return``}}function o(e){let t=a(),n=window.location.pathname,o=JSON.stringify({event:e,path:n,visitorId:t}),s=new Image(1,1);s.referrerPolicy=`strict-origin`,s.src=`${i}?event=${encodeURIComponent(e)}&path=${encodeURIComponent(n)}&visitorId=${encodeURIComponent(t)}&r=${crypto.randomUUID()}`,fetch(r,{method:`POST`,headers:{"Content-Type":`text/plain;charset=UTF-8`},body:o,keepalive:!0,credentials:`omit`}).then(e=>{e.ok||navigator.sendBeacon?.(r,new Blob([o],{type:`text/plain;charset=UTF-8`}))}).catch(()=>{navigator.sendBeacon?.(r,new Blob([o],{type:`text/plain;charset=UTF-8`}))})}function s(e){if(!e.hasAttribute(`download`))return null;let t=new URL(e.href,window.location.href).pathname.toLowerCase();return t.endsWith(`.svisuals`)?`config_download`:t.endsWith(`.zip`)?`bundle_download`:t.endsWith(`.jar`)?`mod_download`:null}function c(){return(0,n.useEffect)(()=>{o(`visit`);let e=e=>{let t=e.target;if(!(t instanceof Element))return;let n=t.closest(`a[download]`);if(!n)return;let r=s(n);r&&o(r)};return document.addEventListener(`click`,e,!0),()=>document.removeEventListener(`click`,e,!0)},[]),null}export{c as default};
+import{r as wrap}from"./rolldown-runtime-C60lm6uB.js";
+import{r as react}from"./framework-BgSIrAUN.js";
+const React=wrap(react(),1);
+const endpoint="https://svisuals-metrics-7k4p9x2.davi5780d.chatgpt.site/api/track";
+function visitorId(){try{const key="svisuals_visitor_id";let id=localStorage.getItem(key);if(!id){id=crypto.randomUUID();localStorage.setItem(key,id);}return id;}catch{return "";}}
+function send(event){
+ const body=JSON.stringify({event,path:location.pathname,visitorId:visitorId(),eventId:crypto.randomUUID()});
+ const fallback=()=>navigator.sendBeacon?.(endpoint,new Blob([body],{type:"text/plain;charset=UTF-8"}));
+ void fetch(endpoint,{method:"POST",headers:{"Content-Type":"text/plain;charset=UTF-8"},body,keepalive:true,credentials:"omit"})
+ .then(r=>{if(!r.ok)fallback();else if(event!=="visit")window.dispatchEvent(new Event("svisuals-download-recorded"));}).catch(fallback);
+}
+function Tracker(){
+ React.useEffect(()=>{
+  send("visit");
+  let lastHref="",lastAt=0;
+  const seen=new WeakSet();
+  const onClick=event=>{
+   if(!event.isTrusted||event.defaultPrevented||seen.has(event)||!(event.target instanceof Element))return;
+   const a=event.target.closest("a[download]");if(!a)return;
+   const u=new URL(a.href,location.href);if(u.origin!==location.origin)return;
+   const p=u.pathname.toLowerCase(),kind=p.endsWith(".jar")?"mod_download":p.endsWith(".svisuals")?"config_download":p.endsWith(".zip")?"bundle_download":null;
+   if(!kind)return;const now=performance.now();if(lastHref===u.href&&now-lastAt<800)return;
+   seen.add(event);lastHref=u.href;lastAt=now;send(kind);
+  };
+  document.addEventListener("click",onClick,true);
+  return()=>document.removeEventListener("click",onClick,true);
+ },[]);return null;
+}
+export{Tracker as default};
