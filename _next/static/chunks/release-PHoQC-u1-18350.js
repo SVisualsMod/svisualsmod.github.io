@@ -1,1 +1,0 @@
-var e=`18.35.0+mc1.21.11`,t=`/downloads/SVisuals-Fabric-1.21.11-18.35.0+mc1.21.11-PROTECTED.jar`,n=`/downloads/SVisuals-18.35.0-WeR-PiU-Bundle.zip`;export{t as n,e as r,n as t};
