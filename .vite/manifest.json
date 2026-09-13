@@ -1,33 +1,33 @@
 {
-  "_framework-BgSIrAUN-beta21.js": {
-    "file": "_next/static/chunks/framework-BgSIrAUN-beta21.js",
+  "_framework-BgSIrAUN-beta21-renderfix.js": {
+    "file": "_next/static/chunks/framework-BgSIrAUN-beta21-renderfix.js",
     "name": "framework",
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js"
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js"
     ]
   },
-  "_rolldown-runtime-C60lm6uB-beta21.js": {
-    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB-beta21.js",
+  "_rolldown-runtime-C60lm6uB-beta21-renderfix.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB-beta21-renderfix.js",
     "name": "rolldown-runtime"
   },
   "app/AnalyticsTracker.tsx": {
-    "file": "_next/static/chunks/AnalyticsTracker-Crfw2t3T-beta21.js",
+    "file": "_next/static/chunks/AnalyticsTracker-Crfw2t3T-beta21-renderfix.js",
     "name": "AnalyticsTracker",
     "src": "app/AnalyticsTracker.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js",
-      "_framework-BgSIrAUN-beta21.js"
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js",
+      "_framework-BgSIrAUN-beta21-renderfix.js"
     ]
   },
   "app/admin/page.tsx": {
-    "file": "_next/static/chunks/page-DHFbluFC-beta21.js",
+    "file": "_next/static/chunks/page-DHFbluFC-beta21-renderfix.js",
     "name": "page",
     "src": "app/admin/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js",
-      "_framework-BgSIrAUN-beta21.js"
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js",
+      "_framework-BgSIrAUN-beta21-renderfix.js"
     ]
   },
   "app/configs/page.tsx": {
@@ -36,8 +36,8 @@
     "src": "app/configs/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js",
-      "_framework-BgSIrAUN-beta21.js"
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js",
+      "_framework-BgSIrAUN-beta21-renderfix.js"
     ]
   },
   "app/page.tsx": {
@@ -46,8 +46,8 @@
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js",
-      "_framework-BgSIrAUN-beta21.js"
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js",
+      "_framework-BgSIrAUN-beta21-renderfix.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
@@ -56,9 +56,9 @@
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js",
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-BgSIrAUN-beta21.js"
+      "_framework-BgSIrAUN-beta21-renderfix.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
@@ -67,8 +67,8 @@
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-C60lm6uB-beta21.js",
-      "_framework-BgSIrAUN-beta21.js"
+      "_rolldown-runtime-C60lm6uB-beta21-renderfix.js",
+      "_framework-BgSIrAUN-beta21-renderfix.js"
     ],
     "dynamicImports": [
       "virtual:vinext-app-browser-entry",

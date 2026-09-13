@@ -1,1 +1,0 @@
-var e=`18.36.0+mc1.21.11`,t=`/downloads/Svisuals%201.21.11%20%5BBETA%202.1%5D.jar?v=d51862a4`,n=`/downloads/Svisuals%201.21.11%20%5BBETA%202.1%5D%20%2B%20CFG.zip?v=d51862a4`;export{t as n,e as r,n as t};
